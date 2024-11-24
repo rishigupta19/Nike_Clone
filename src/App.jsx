@@ -1,6 +1,14 @@
-import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality } from './sections';
-
-import Nav from './components/nav';
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from "./sections";
+import Nav from "./components/Nav";
 
 const App = () => (
   <main className="relative">
@@ -9,7 +17,7 @@ const App = () => (
       <Hero />
     </section>
     <section className="padding">
-      <PopularProducts /> 
+      <PopularProducts />
     </section>
     <section className="padding">
       <SuperQuality />
@@ -30,6 +38,6 @@ const App = () => (
       <Footer />
     </section>
   </main>
-)
+);
 
 export default App;

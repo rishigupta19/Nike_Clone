@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { headerLogo } from "../assets/images";
-import { hamburger, closeIcon } from "../assets/icons"; // Add the "X" icon (closeIcon)
+import { hamburger, closeIcon } from "../assets/icons";
 import { navLinks } from "../constants/index";
 
 const Nav = () => {
